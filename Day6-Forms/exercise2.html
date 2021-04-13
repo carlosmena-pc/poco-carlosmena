@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+  <header>
+    <hr>
+    <h1>Profile</h1>
+    <p> <strong>Here you can view and adjust your address details.</strong></p>
+    <br>
+    
+  </header>
+  <section>
+    <div>
+      <hr>
+      <p>Personal Details</p>
+      <form action="do_something.html" method="post">
+        <br>
+
+                <label for="titel">Title</label> 
+                <input type="text" id="titel" name="titel" required placeholder="Dr. Mr. Ms.">
+                <br><br>
+                <label for="first_name">First Name</label> 
+                <input type="text" id="first_name" name="first_name" required placeholder="John"> 
+                <br><br>
+                <label for="last_name">Last Name</label> 
+                <input type="text" id="last_name" name="last_name" required placeholder="Doe">
+                <br><br>
+
+                <p>Gender 
+                <label for="male">Male</label>    
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>    
+                <input type="radio" id="female" name="gender" value="female" required></p>
+                <br><br>
+
+                <p>Language 
+                <label for="de">German</label>    
+                <input type="radio" id="de" name="language" value="de" required>
+                <label for="fr">French</label>    
+                <input type="radio" id="fr" name="language" value="fr" required>
+                <label for="it">Italian</label>    
+                <input type="radio" id="it" name="language" value="it" required></p>
+                <br><br>
+
+
+                <hr>
+                <p>Contact Details</p> 
+                <label for="phone_number">Phone Number</label>     
+                <input type="text" id="phone_number" name="phone_number" required >
+                <br><br>
+                <label for="cellphone_number">Cellphone Number</label> 
+                <input type="tel" id="cellphone_number" name="cellphone_number" placeholder="optional"> 
+                <br><br>
+                <label for="workphone_number">Workphone Number</label> 
+                <input type="number" id="workphone_number" name="workphone_number"  placeholder="optional">
+                <br><br>
+                <label for="fax">Fax</label>  
+                <input type="nummer" id="fax" name="fax" required>
+                <br><br>
+                <label for="mail1">EMail 1</label>    
+                <input type="email" id="email1" name="email1" required>
+                <br><br>
+                <label for="mail2">EMail 2</label>    
+                <input type="email" id="email2" name="email2" placeholder="optional">
+                <br><br>
+
+                <hr>
+                <p>Address Details</p> 
+                <label for="company">Comany</label>     
+                <input type="text" id="company" name="company" required >
+                <br><br>
+                <label for="fantasy_name">  Fantasy Name</label> 
+                <input type="text" id="fantasy_name" name="fantasy_name" placeholder="optional"> 
+                <br><br>
+                <label for="homepage">Homepage</label> &nbsp;&nbsp;
+                <input type="text" id="homepage" name="homepage"  placeholder="optional">
+                <br><br>
+                <label for="street">Street /</label>
+                <label for="house_number">House Nr</label> 
+                <input type="text" id="street" name="street" required placeholder="Sample Street">
+                <input type="number"  id="house_number" name="house_number" required placeholder="33">
+                <br><br>
+                <label for="other_address">Other  Adress</label>    
+                <input type="text" id="other_address" name="other_address"  placeholder="optional">
+                <br><br>
+                <label for="po_box">P.O. Box</label>   
+                <input type="text" id="po_box" name="po_box" placeholder="optional">
+                <br><br>
+                <label for="postal_code">Postal Code / </label> 
+                <label for="city">City</label>   
+                <input type="number" id="postal_code" name="postal_code" required placeholder="3008">
+                <input type="text" id="city" name="city" required placeholder="Bern">
+                <br><br>
+                <label for="state">State / </label> 
+                <label for="country">Country</label>  
+                <input type="text" id="state" name="state" required placeholder="ZH">
+                <input type="text" id="country" name="country" required placeholder="Switzerland">
+                <br><br>
+                <input type="submit" value="Submit">
+
+        </form>
+    </div> 
+  </section>
+</body>
+</html>

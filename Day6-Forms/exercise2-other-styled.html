@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>repl.it</title>
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>Contact us...</h1>
+        </header>
+        <main>
+          <form action="" method="POST">
+            <div id="container" class="contactform">
+                <section>
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <label for="first_name">First Name</labe>
+                        <input autofocus required type="text" name="first_name" id="first_name" tabindex="1" placeholder="John" />
+                        <label for="last_name">Last Name</labe>
+                        <input required type="text" name="last_name" id="last_name" tabindex="2" placeholder="Doe"/>
+                        <p class="gender">Gender</p>
+                        <label for="gender_male">Male</labe>
+                        <input required type="radio" name="gender" id="gender_male" tabindex="3" />
+                        <label for="gender_female">Female</labe>
+                         <input required type="radio" name="gender" id="gender_female" tabindex="4" />
+                         <label for="gender_no">No info</labe>
+                         <input required type="radio" name="gender" id="gender_no" tabindex="5" />
+                        <br>
+                        <br>
+                        <label for="language">Desired language</label>
+<select name="language" id="language" tabindex="6">
+    <option value="">--Choose an option--</option>
+    <option value="EN">English</option>
+    <option value="DE">German</option>
+    <option value="IT">Italian</option>
+    <option value="FR">French</option>
+</select>
+                        <label for="email">Email</labe>
+                        <input required type="email" name="email" id="email" tabindex="7" placeholder="john.doe@something.com"/>
+                        <label for="dob">Date of birth</labe>
+                        <input required type="date" name="dob" id="dob" tabindex="8" placeholder="01/01/2000"/>        
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                      <legend>Address</legend>
+                        <label for="street">Street</labe>
+                        <input required type="text" name="street" id="street" tabindex="9"/>
+                        <label for="house_number">House Number</labe>
+                        <input required type="text" name="house_number" id="street" tabindex="10"/>
+                        <label for="city">City</labe>
+                        <input required type="text" name="city" id="street" tabindex="11"/>
+                        <label for="postal">Postal Code</labe>
+                        <input required type="text" name="postal" id="street" tabindex="12"/>
+                        <label required for="country">Country of residence</label>
+                        <input list="countries" name="country" id="country" tabindex="13" placeholder="Type some letters..."/>
+                        <datalist id="countries">
+                            <option value="Switzerland"></option>
+                            <option value="Chile"></option>
+                            <option value="Tibet"></option>
+                            <option value="Sri Lanka"></option>
+                            <option value="Other"></option>
+                        </datalist>
+                        </fieldset>
+                        <br>
+                    <fieldset>
+                        <legend>Have somtething to say?</legend>
+    <textarea id="opinion" name="opinion" placeholder="Write your opinion here..."  tabindex="14"></textarea>
+                    </fieldset>
+                    <br>
+                    <aside>
+                    <input type="checkbox" id="agree" name="agree" required tabindex="15">   
+                    <label for="agree"><strong>I agree</strong> that my information will be used strictly to contact with the company and will not be shared to third parties.</label>
+                  </aside>
+                  <br>
+                  <div id="form_buttons" class="form_buttons">
+                    <input type="reset" value="Reset Form" tabindex="16">
+                    <input type="submit" value="Submit Form" tabindex="17">
+                  </div>
+                </section>
+            </div>
+            </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
